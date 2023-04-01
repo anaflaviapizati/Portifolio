@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&family=Playfair+Display&display=swap');
+
+*{
+   margin: 0;
+   padding: 0; 
+   box-sizing: border-box;
+   text-decoration: none;
+}
+body{
+    font-size: 100%;
+    background-color: rgb(75, 6, 133);
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    
+} 
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item{
+    font-family: 'Mukta', sans-serif;
+    color: antiquewhite;
+    font-weight: 400;
+    font-size:20px;
+}
+
+.pagina1{
+    
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     padding: 250px;
+}
+
+.pagina1-titulos{
+    display: flex;
+    flex-direction: column;
+    color: antiquewhite;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.pagina1-titulos-sub{
+
+    font-size: 30px;
+}
+
+.pagina1-titulos-titulo{
+    font-size: 80px;
+}
+
+.pagina1-botoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px;
+    color: antiquewhite; 
+
+
+}
+
+.pagina1-botoes-botao{
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+    cursor: pointer;
+    animation: alternate;
+    border: none;
+    background-color: transparent;
+    height: 64px;
+    width: 64px;
+    
+}
+
+
