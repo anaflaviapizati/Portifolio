@@ -71,12 +71,9 @@ body{
     justify-content: space-between;
     gap:20px;
     cursor: pointer;
-    animation: alternate;
     border: none;
     background-color: transparent;
     height: 64px;
     width: 64px;
-    
+    border-radius: 50px;
 }
-
-
