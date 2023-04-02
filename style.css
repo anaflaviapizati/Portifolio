@@ -11,7 +11,14 @@ body{
     background-color: #4b0685;
 }
 
+a{
+    text-decoration: none;
+    color: inherit;
+}
 
+a:hover{
+    opacity: 0.7;
+}
 nav{
     display: flex;
     justify-content: space-around;
@@ -28,11 +35,13 @@ ul{
 }
 
 li{
+
     margin:  0 15px;
 }
 
 .pagina1{
      border-top: 0.4px solid antiquewhite;
+     border-bottom: 0.4px solid antiquewhite;
      display: flex;
      flex-direction: column;
      text-align: center;
@@ -80,4 +89,42 @@ li{
 
 .pagina1-botoes-botao:hover{
     opacity: 0.8 ;
+}
+
+.pagina2{
+    padding: 30px;
+    display: flex;
+    
+}
+
+.pagina2-titulo{
+    font-size: 35px;
+    font-family: 'Playfair Display';
+    color: antiquewhite;
+    text-align: center;
+}
+
+.pagina2-conteudo{
+    padding: 25vh;
+    display: flex;
+    justify-content: space-between;
+    gap: 45vh;
+
+
+}
+
+.pagina2-conteudo-perfil{
+    height:40vh;
+    width: 40vh;
+    border-radius: 50%;
+}
+
+.pagina2-conteudo-perfil:hover{
+    border-radius: 10%;
+    transition-delay: 0.1s ;
+}
+.pagina2-conteudo-texto{
+    font-size: 2vh;
+    display: flex;
+    text-align: justify;
 }
