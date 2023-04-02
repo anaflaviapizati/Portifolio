@@ -12,27 +12,31 @@ body{
 }
 
 .cabecalho{
+    
+    
+
+} 
+nav{
     display: flex;
-    flex-direction: row;
-    align-items: center;
     justify-content: space-around;
     padding: 24px;
-    
-} 
-.cabecalho-menu{
-    display: flex;
-    gap: 32px;
 }
-
-.cabecalho-menu-item{
+ul{
+    
+    display: flex;
     font-family: 'Mukta', sans-serif;
     color: antiquewhite;
     font-weight: 400;
     font-size:20px;
+    list-style-type: none;
+}
+
+li{
+    margin:  0 15px;
 }
 
 .pagina1{
-    
+     border-top: 0.4px solid antiquewhite;
      display: flex;
      flex-direction: column;
      text-align: center;
@@ -48,32 +52,36 @@ body{
 }
 
 .pagina1-titulos-sub{
-
+    font-family: 'Mukta', sans-serif;
     font-size: 30px;
 }
 
 .pagina1-titulos-titulo{
+    font-family: 'Playfair Display';
     font-size: 80px;
 }
 
 .pagina1-botoes{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    padding: 30px;
+    justify-content: center;
+    gap:32px;
+    padding: 60px;
     color: antiquewhite; 
-
 
 }
 
 .pagina1-botoes-botao{
     display: flex;
-    justify-content: space-between;
-    gap:20px;
     cursor: pointer;
+    border-radius: 50px;
     border: none;
     background-color: transparent;
     height: 64px;
     width: 64px;
-    border-radius: 50px;
+    
+}
+
+.pagina1-botoes-botao:hover{
+    opacity: 0.8 ;
 }
