@@ -176,3 +176,100 @@ li{
 
     height: 220px;
 }
+
+.pagina4{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-top: 0.4px solid #f6f6ff;
+    font-size: 35px;
+    font-family:'Mukta', sans-serif ;
+    color:#4b0685;
+    background-color: #f6f6ff;
+    text-align: center;
+    border-bottom: 0.4px solid #f6f6ff;
+}
+
+.pagina4-quadros{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap:32px;
+    padding: 100px;
+    width: 100%;
+    height: 650px;
+
+}
+
+.pagina4-quadro1, .pagina4-quadro2, .pagina4-quadro3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-size: auto;
+    color: #f6f6ff;
+    background-color:#4b0685;
+    width: 500px;
+    height: 600px;
+    gap: 30px;
+}
+
+.pagina4-quadro1-texto{
+    color:#f6f6ff;
+    text-align: center;
+
+}
+.rodape-projetos{
+
+    height: 220px;
+}
+
+.bt-projetos {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    color: #4B0685;
+    font-family:'Mukta', sans-serif ;
+    font-size: 35px;
+    font-weight: 600;
+    padding: 20px;
+    background-color: #F6F6FF;
+    border: solid #4B0685 5px;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .bt-projetos:hover {
+    border: solid #4B0685 5px;
+    background: #F6F6FF;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+ }
+
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    border-radius: 50px;
+    
+}
+.btn::after {
+    transition: margin-top 2s;
+    background-color: transparent;
+}
+
+.btn:hover::after {
+    background-color: transparent;
+    margin-top:-8px;
+}
